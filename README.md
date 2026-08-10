@@ -28,7 +28,8 @@
   <a href="#-engineering-capabilities">Capabilities</a> •
   <a href="#-mobile--native-architecture">Mobile</a> •
   <a href="#-security-posture">Security</a> •
-  <a href="#-platform-portfolio">Portfolio</a>
+  <a href="#-flagship-platforms">Flagship Platforms</a> •
+  <a href="#-other-projects--engineering-lab">Lab Projects</a>
 </p>
 
 <p align="center">
@@ -206,44 +207,115 @@ UNTRUSTED INPUT ──→ [ VALIDATE ] ──→ [ AUTHORIZE ] ──→ [ EXECU
 
 ---
 
-## 🚀 Platform Portfolio
+## 🌐 Selected Engineering Domains
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Full--Stack_Engineering-0A2647?style=for-the-badge" alt="Full-Stack Engineering" />
+  <img src="https://img.shields.io/badge/Software_Architecture-144272?style=for-the-badge" alt="Software Architecture" />
+  <img src="https://img.shields.io/badge/Enterprise_Applications-205295?style=for-the-badge" alt="Enterprise Applications" />
+  <img src="https://img.shields.io/badge/Artificial_Intelligence-DC2626?style=for-the-badge" alt="Artificial Intelligence" />
+  <img src="https://img.shields.io/badge/Cybersecurity_%26_OSINT-0A2647?style=for-the-badge" alt="Cybersecurity & OSINT" />
+  <img src="https://img.shields.io/badge/PropTech-144272?style=for-the-badge" alt="PropTech" />
+  <img src="https://img.shields.io/badge/FinTech_%26_Payments-205295?style=for-the-badge" alt="FinTech & Payments" />
+  <img src="https://img.shields.io/badge/CRM_%26_ERP_Systems-DC2626?style=for-the-badge" alt="CRM & ERP Systems" />
+  <img src="https://img.shields.io/badge/PWA_%26_Mobile_Web-0A2647?style=for-the-badge" alt="PWA & Mobile Web" />
+  <img src="https://img.shields.io/badge/Backend_Infrastructure-144272?style=for-the-badge" alt="Backend Infrastructure" />
+</p>
+
+---
+
+## 🚀 Flagship Platforms
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🏘️ EPS EXPERIENCE
-**Residential Operational Platform**
+### 🏘️ 01. EPS EXPERIENCE
+**Resident & Operational Experience Platform**
 
-- 📱 Mobile-first PWA architecture
-- 🛡️ Guest access & security workflows
-- ⚡ Incident management & resident utilities
+Enterprise residential experience platform designed for Eight Park Soreang residents, security personnel, engineering teams, and property administrators.
 
-<p>
-  <a href="https://github.com/PT-ZYNTRIX-ARTIFICIAL-INTELLIGENCE/EPS-EXPERIENCE">
-    <img src="https://img.shields.io/badge/VIEW%20REPO-EPS--EXPERIENCE-0A2647?style=for-the-badge&logo=github&logoColor=white" alt="EPS Experience Repo" />
-  </a>
-</p>
+- **Focus:** PropTech · Resident Experience · Security Operations · PWA · Enterprise Architecture
+- **Tech Stack:** Next.js · TypeScript · Supabase · PostgreSQL · PWA · Vercel
+- **Canonical Status:** Active Core Product *(Consolidates `EPS-EXPERIENCE`, `EIGHT-PARK-SOREANG-EXPERIENCE`, `CLUSTER-EIGHT-PARK-SOREANG`)*
 
 </td>
 <td width="50%" valign="top">
 
-### 🍱 SIGAP GIZI
-**Digital Field Documentation Platform**
+### 📊 02. SIMPRO
+**Property CRM & Sales Intelligence Platform**
 
-- 📋 Field evidence & distribution logs
-- 📶 Offline-aware operational execution
-- 🔒 Controlled storage & master data isolation
+Integrated property sales management platform featuring the **CINTA AI** (Customer Interaction, Nurturing, Tracking & Assistance) ecosystem.
 
-<p>
-  <a href="https://github.com/PT-ZYNTRIX-ARTIFICIAL-INTELLIGENCE/SIGAP-GIZI">
-    <img src="https://img.shields.io/badge/VIEW%20REPO-SIGAP--GIZI-0A2647?style=for-the-badge&logo=github&logoColor=white" alt="SIGAP GIZI Repo" />
-  </a>
-</p>
+- **Focus:** CRM Architecture · AI Customer Assistant · Lead Management · Sales Automation · Analytics
+- **Tech Stack:** Next.js · TypeScript · Supabase · Python · AI/LLM · WhatsApp API
+- **Canonical Status:** Active Core Product *(Consolidates `SIMPRO`, `SIMPRO-DMB`, `SIMPRO-DMB-Eight-Park-Soreang`)*
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏬 03. MAESTRO ERP
+**Enterprise Multi-Entity ERP Platform**
+
+Unified enterprise resource planning platform supporting property development, manufacturing, F&B, and leasing under PT Delapan Maestro Binangkit.
+
+- **Focus:** Enterprise Software · ERP Architecture · Multi-Entity Systems · Business Automation
+- **Tech Stack:** TypeScript · Next.js · PostgreSQL · Enterprise Architecture
+
+</td>
+<td width="50%" valign="top">
+
+### 🍱 04. SIGAP GIZI
+**Digital Distribution Documentation Platform**
+
+Operational field platform supporting documentation workflows for the Makan Bergizi Gratis program at SPPG Bandung Padasuka.
+
+- **Focus:** Government Operations · Field Operations · Digital Documentation · Offline-First PWA
+- **Tech Stack:** Next.js · TypeScript · Supabase · PostgreSQL · Google Drive API · PWA
+- **Canonical Status:** Active Core Product *(Consolidates `SIGAP-GIZI` & Native field implementation)*
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔍 05. CipherOps Intelligence
+**OSINT Investigation & Digital Fraud Intelligence**
+
+Independent investigation platform focused on digital fraud intelligence, OSINT workflows, evidence organization, and intelligence reporting.
+
+- **Focus:** OSINT · Digital Fraud Investigation · Evidence Management · Cybersecurity Research
+- **Tech Stack:** Python · OSINT Automation · Data Analysis
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 06. CEKAS.AI
+**Artificial Intelligence Platform**
+
+AI-focused software project exploring intelligent automation, application-level LLM integration, and scalable AI-assisted workflows.
+
+- **Focus:** Artificial Intelligence · LLM Integration · Automation · AI Application Engineering
+- **Tech Stack:** TypeScript · AI/LLM · Web Application
 
 </td>
 </tr>
 </table>
+
+---
+
+## 🧪 Other Projects & Engineering Lab
+
+| Project Name | Domain & Scope | Core Technologies | Canonical Note |
+|---|---|---|---|
+| **Payment Operations Infrastructure** | Payment operations, transaction processing & backend reliability | Backend Engineering, Transaction Ops, Reliability | Infrastructure Engine |
+| **E-MAESTRO PAY** | Digital payment application in the Maestro technology ecosystem | FinTech, Digital Payment, Web Engineering | HTML / Web Tech |
+| **EIGHT PARK WALLET** | Digital wallet concept supporting ecosystem transactions | FinTech, PropTech, Digital Wallet | Consolidates `EIGHT-PARK-WALLET` variants |
+| **DUNIA ESPORTS** | Esports tournament management & event competition platform | Esports Tech, Event Operations, Web Platform | TypeScript Web App |
+| **MAESTRO MILK** | Internal business digitalization & operational technology | Business Digitalization, Internal Systems | Operational Tech |
+| **RED SHADOW CYBER FORCE IDN** | Security research, penetration testing & defensive analysis | Cybersecurity, PenTesting, Defensive Systems | Security Research Lab |
 
 ---
 
