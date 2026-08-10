@@ -8,7 +8,7 @@
 -->
 
 <p align="center">
-  <img src="./assets/zyntrix-hero.svg" width="100%" alt="PT Zyntrix Artificial Intelligence — Enterprise Engineering Organization" />
+  <img src="./assets/HERO.png" width="100%" alt="PT Zyntrix Artificial Intelligence — Enterprise Engineering Organization" />
 </p>
 
 <p align="center">
