@@ -34,6 +34,7 @@
   <a href="#-engineering-capabilities">Capabilities</a> •
   <a href="#-technology-platform">Technology</a> •
   <a href="#-architecture-principles">Architecture</a> •
+  <a href="#-native--cross-platform-mobile-engineering">Mobile</a> •
   <a href="#-security-posture">Security</a> •
   <a href="#-platform-portfolio">Portfolio</a> •
   <a href="#-engineering-governance">Governance</a>
@@ -229,10 +230,147 @@ Infrastructure ──┴──── implements contracts, never owns business r
 
 ---
 
+## 📱 Native & Cross-Platform Mobile Engineering
+
+Our mobile engineering methodology enforces **Clean Architecture**, modular layer separation, and strict protocol boundaries across Android, iOS, and Cross-Platform runtimes.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🤖 Android Native Stack
+
+```text
+Kotlin
+   ↓
+Jetpack Compose
+   ↓
+Android Jetpack
+├── ViewModel
+├── Navigation
+├── Room
+├── WorkManager
+├── DataStore
+└── CameraX
+   ↓
+Android SDK
+```
+
+</td>
+<td width="33%" valign="top">
+
+### 🍎 iOS Native Stack
+
+```text
+Swift
+   ↓
+SwiftUI
+   ↓
+Clean Architecture
+├── Presentation
+│   ├── View
+│   ├── ViewModel
+│   └── Navigation
+│
+├── Domain
+│   ├── Entity
+│   ├── UseCase
+│   └── Repository Protocol
+│
+├── Data
+│   ├── Repository
+│   ├── API Client
+│   ├── SwiftData
+│   └── Cache
+│
+└── Platform
+    ├── AVFoundation
+    ├── CoreLocation
+    ├── UserNotifications
+    ├── LocalAuthentication
+    └── BackgroundTasks
+   ↓
+iOS SDK
+```
+
+</td>
+<td width="34%" valign="top">
+
+### ⚛️ Cross-Platform Stack
+
+```text
+TypeScript
+   ↓
+React Native
+   ↓
+Expo
+   ↓
+Clean Architecture
+├── Presentation
+│   ├── Screens
+│   ├── Components
+│   ├── Expo Router
+│   └── State Management
+│
+├── Domain
+│   ├── Entities
+│   ├── Use Cases
+│   └── Repository Interfaces
+│
+├── Data
+│   ├── API Client
+│   ├── Repository Implementation
+│   ├── Expo SQLite
+│   └── SecureStore
+│
+├── Native Services
+│   ├── Camera
+│   ├── Location
+│   ├── Notifications
+│   ├── Biometrics
+│   └── File System
+│
+└── Infrastructure
+    ├── Supabase
+    ├── Sentry
+    └── EAS
+   ↓
+React Native New Architecture
+   ↓
+Android SDK + iOS SDK
+```
+
+</td>
+</tr>
+</table>
+
+### 🌐 Client & API Communication Network Matrix
+
+| Platform / Runtime | Primary Network Client | Data Transport Protocol | State & Cache Management |
+|---|---|---|---|
+| **Next.js Web** | Fetch API / Axios | REST API / GraphQL / tRPC | React Query / SWR |
+| **Kotlin + Jetpack Compose** | Retrofit / Ktor Client | REST API / gRPC | Flow / Coroutines / Room |
+| **Swift + SwiftUI** | URLSession / Alamofire | REST API / GraphQL | SwiftData / Combine / AsyncSequence |
+| **React Native + Expo** | Fetch API / Axios / TanStack Query | REST API / GraphQL / WebSockets | TanStack Query / Expo SQLite / SecureStore |
+
+```text
+┌───────────────────────────┐    ┌──────────────────────────────────┐
+│   Next.js (Web / PWA)     │───→│  REST API / GraphQL / tRPC       │
+├───────────────────────────┤    ├──────────────────────────────────┤
+│   Android (Kotlin Compose)│───→│  Retrofit / Ktor Client          │
+├───────────────────────────┤    ├──────────────────────────────────┤
+│   iOS (Swift + SwiftUI)   │───→│  URLSession / Alamofire          │
+├───────────────────────────┤    ├──────────────────────────────────┤
+│   Cross-Platform (Expo)   │───→│  Fetch API / Axios / TanStack    │
+└───────────────────────────┘    └──────────────────────────────────┘
+```
+
+---
+
 ## 🧰 Technology Platform
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,nextjs,react,tailwind,nodejs,python,postgres,supabase,docker,cloudflare,vercel,github,git,vscode&perline=15" alt="Zyntrix technology stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,nextjs,react,tailwind,nodejs,python,kotlin,swift,postgres,supabase,docker,cloudflare,vercel,github,git,vscode&perline=15" alt="Zyntrix technology stack" />
 </p>
 
 ### Primary engineering stack
