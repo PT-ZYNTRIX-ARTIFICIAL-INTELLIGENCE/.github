@@ -61,6 +61,7 @@
 - 🎓 **Background:** Informatics Engineering
 - ⏳ **Experience:** 3+ Years in Software Engineering, AI Workflows & Web Systems Architecture
 - 🎯 **Core Focus:** Building high-performance digital platforms, clean microservices & secure APIs
+- 📧 **Direct Contact:** [zaki.muhamad@zackpratama.tech](mailto:zaki.muhamad@zackpratama.tech)
 
 #### 🧰 Technical Stack & Key Technologies
 <p>
@@ -319,11 +320,14 @@ AI-focused software project exploring intelligent automation, application-level 
 
 ---
 
-## 📡 Organization Links
+## 📡 Organization Links & Direct Contact
 
 <p align="center">
   <a href="https://github.com/PT-ZYNTRIX-ARTIFICIAL-INTELLIGENCE">
     <img src="https://img.shields.io/badge/GitHub-Organization-0A2647?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Organization" />
+  </a>
+  <a href="mailto:zaki.muhamad@zackpratama.tech">
+    <img src="https://img.shields.io/badge/Email-zaki.muhamad%40zackpratama.tech-144272?style=for-the-badge&logo=gmail&logoColor=white" alt="Direct Contact Email" />
   </a>
   <a href="https://github.com/PT-ZYNTRIX-ARTIFICIAL-INTELLIGENCE?tab=repositories">
     <img src="https://img.shields.io/badge/Explore-Repositories-DC2626?style=for-the-badge&logo=git&logoColor=white" alt="Repositories" />
