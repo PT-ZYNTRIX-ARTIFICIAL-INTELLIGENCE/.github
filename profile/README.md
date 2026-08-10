@@ -95,73 +95,73 @@ Our mobile engineering methodology enforces **Clean Architecture** across Native
 <tr>
 <td width="33%" valign="top">
 
-### 🤖 Android Native
+### 🤖 Android Native Stack
 
-```text
-Kotlin
-   ↓
-Jetpack Compose
-   ↓
-Android Jetpack
-├── ViewModel
-├── Navigation
-├── Room
-├── WorkManager
-├── DataStore
-└── CameraX
-   ↓
-Android SDK
-```
+<p>
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" /><br />
+  ↓<br />
+  <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=android&logoColor=white" alt="Jetpack Compose" /><br />
+  ↓
+</p>
+
+#### 🧩 Android Jetpack
+- 🎨 **UI & State:** `ViewModel` · `Navigation`
+- 💾 **Persistence:** `Room` · `DataStore`
+- ⚙️ **Background & Media:** `WorkManager` · `CameraX`
+
+<p>
+  ↓<br />
+  <img src="https://img.shields.io/badge/Android_SDK-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android SDK" />
+</p>
 
 </td>
 <td width="33%" valign="top">
 
-### 🍎 iOS Native
+### 🍎 iOS Native Stack
 
-```text
-Swift
-   ↓
-SwiftUI
-   ↓
-Clean Architecture
-├── Presentation
-│   ├── View
-│   ├── ViewModel
-│   └── Navigation
-├── Domain
-│   ├── Entity
-│   ├── UseCase
-│   └── Repository Protocol
-├── Data
-│   ├── Repository
-│   ├── SwiftData
-│   └── Cache
-└── Platform Services
-   ↓
-iOS SDK
-```
+<p>
+  <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" /><br />
+  ↓<br />
+  <img src="https://img.shields.io/badge/SwiftUI-007ACC?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftUI" /><br />
+  ↓
+</p>
+
+#### 🏛️ Clean Architecture
+- 🎨 **Presentation:** `View` · `ViewModel` · `Navigation`
+- 🧠 **Domain:** `Entity` · `UseCase` · `Repository Protocol`
+- 💾 **Data:** `Repository` · `SwiftData` · `Cache`
+- ⚡ **Platform Services:** `AVFoundation` · `CoreLocation` · `Notifications` · `Biometrics`
+
+<p>
+  ↓<br />
+  <img src="https://img.shields.io/badge/iOS_SDK-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS SDK" />
+</p>
 
 </td>
 <td width="34%" valign="top">
 
-### ⚛️ Cross-Platform
+### ⚛️ Cross-Platform Stack
 
-```text
-TypeScript
-   ↓
-React Native
-   ↓
-Expo Router
-   ↓
-Clean Architecture
-├── Presentation (Screens/UI)
-├── Domain (UseCases/Entities)
-├── Data (SQLite/SecureStore)
-├── Native Services (Camera/GPS)
-└── Infrastructure (Supabase/EAS)
-   ↓
-New Architecture (Android + iOS)
-```
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /><br />
+  ↓<br />
+  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React Native" /><br />
+  ↓<br />
+  <img src="https://img.shields.io/badge/Expo_Router-000000?style=for-the-badge&logo=expo&logoColor=white" alt="Expo Router" /><br />
+  ↓
+</p>
+
+#### 🏛️ Clean Architecture
+- 🎨 **Presentation:** `Screens` · `Components` · `State`
+- 🧠 **Domain:** `Entities` · `UseCases` · `Interfaces`
+- 💾 **Data:** `API Client` · `Expo SQLite` · `SecureStore`
+- ⚡ **Native Services:** `Camera` · `GPS` · `Biometrics`
+- ☁️ **Infrastructure:** `Supabase` · `Sentry` · `EAS`
+
+<p>
+  ↓<br />
+  <img src="https://img.shields.io/badge/New_Architecture-Fabric_%2B_TurboModules-0A2647?style=for-the-badge" alt="New Architecture" />
+</p>
 
 </td>
 </tr>
