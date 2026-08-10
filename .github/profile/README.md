@@ -435,7 +435,7 @@ platform:
 ## 🛡️ Security Posture
 
 <p align="center">
-  <img src="./assets/security-radar.svg" width="100%" alt="Zyntrix security posture" />
+  <img src="./assets/security-radar.png" width="100%" alt="Zyntrix security posture" />
 </p>
 
 Security controls are designed around **defense in depth** and **least privilege**.
