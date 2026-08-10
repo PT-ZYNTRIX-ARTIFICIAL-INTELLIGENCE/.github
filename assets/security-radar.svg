@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180">
+  <defs>
+    <linearGradient id="sbg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <filter id="shieldGlow">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="180" rx="18" fill="url(#sbg)"/>
+  <rect width="1200" height="180" rx="18" fill="none" stroke="#E2E8F0" stroke-width=".8"/>
+
+  <g transform="translate(65 18)" fill="none" filter="url(#shieldGlow)">
+    <path d="M65 0L125 22V72C125 108 100 130 65 144C30 130 5 108 5 72V22Z" stroke="#0A2647" stroke-width="2.5"/>
+    <path d="M65 10L115 28V72C115 102 94 120 65 132C36 120 15 102 15 72V28Z" stroke="#0A2647" stroke-width="1" stroke-opacity=".15"/>
+    <path d="M65 10L115 28V72C115 102 94 120 65 132C36 120 15 102 15 72V28Z" fill="#0A2647" opacity=".05"/>
+    <path d="M38 70L58 90L95 52" stroke="#DC2626" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g font-family="'Segoe UI',system-ui,sans-serif">
+    <text x="240" y="58" fill="#0A2647" font-size="28" font-weight="800" letter-spacing="1">SECURITY BY DESIGN</text>
+    <text x="240" y="92" fill="#475569" font-size="15">Identity · Authorization · Validation · Least Privilege · Auditability · Recovery</text>
+    <text x="240" y="126" fill="#144272" font-size="12" letter-spacing="4">DEFENSE IN DEPTH · ZERO ASSUMPTION · EXPLICIT TRUST BOUNDARIES</text>
+  </g>
+
+  <g transform="translate(1080 90)">
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#F1F5F9" stroke-width=".5"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#0A2647" stroke-width="1.5" stroke-dasharray="8 12" stroke-opacity=".4">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="6" fill="#0A2647">
+      <animate attributeName="opacity" values=".3;.8;.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="20" cy="-18" r="3" fill="#DC2626">
+      <animate attributeName="opacity" values=".2;.7;.2" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
