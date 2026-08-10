@@ -1,6 +1,6 @@
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║ PT ZYNTRIX ARTIFICIAL INTELLIGENCE — ORGANIZATION PROFILE                 ║
+║ PT ZYNTRIX ARTIFICIAL INTELLIGENCE — ORGANIZATION PROFILE (ENGLISH)        ║
 ║ Enterprise GitHub Organization README                                      ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->

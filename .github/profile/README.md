@@ -23,6 +23,15 @@
 </p>
 
 <p align="center">
+  <a href="./README.md">
+    <img src="https://img.shields.io/badge/Language-Bahasa%20Indonesia-0A2647?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Bahasa Indonesia" />
+  </a>
+  <a href="./README.en.md">
+    <img src="https://img.shields.io/badge/Language-English-DC2626?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English" />
+  </a>
+</p>
+
+<p align="center">
   <a href="#-corporate-overview">Overview</a> •
   <a href="#-founder--leadership">Leadership</a> •
   <a href="#-engineering-capabilities">Capabilities</a> •
