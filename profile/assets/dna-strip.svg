@@ -1,12 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130">
   <rect width="1200" height="130" rx="16" fill="#F8FAFC"/>
   <rect width="1200" height="130" rx="16" fill="none" stroke="#E2E8F0" stroke-width=".8"/>
-  <!-- Heliks ganda DNA -->
   <g fill="none" stroke-width="1.5">
     <path d="M0 30 C120 110 240 15 360 95 S600 15 720 95 S960 15 1200 95" stroke="#0A2647" stroke-opacity=".4"/>
     <path d="M0 95 C120 15 240 110 360 30 S600 110 720 30 S960 110 1200 30" stroke="#DC2626" stroke-opacity=".35"/>
   </g>
-  <!-- Pasangan basa (penghubung) -->
   <g stroke="#CBD5E1" stroke-width="1">
     <path d="M60 56L60 69"/><path d="M180 56L180 69"/>
     <path d="M300 50L300 75"/><path d="M420 46L420 79"/>
@@ -14,7 +12,6 @@
     <path d="M780 47L780 78"/><path d="M900 54L900 71"/>
     <path d="M1020 49L1020 76"/><path d="M1140 53L1140 72"/>
   </g>
-  <!-- Node berdenyut biru tua -->
   <circle cx="60" cy="62" r="4" fill="#0A2647">
     <animate attributeName="opacity" values=".2;.8;.2" dur="2s" repeatCount="indefinite"/>
   </circle>
@@ -27,6 +24,5 @@
   <circle cx="1140" cy="62" r="4" fill="#DC2626">
     <animate attributeName="opacity" values=".5;.9;.5" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <!-- Label -->
   <text x="600" y="118" text-anchor="middle" fill="#94A3B8" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" letter-spacing="5">ARCHITECTURE · SECURITY · QUALITY · AUTOMATION · OBSERVABILITY</text>
 </svg>

@@ -6,15 +6,11 @@
     </linearGradient>
   </defs>
   <rect width="1200" height="150" rx="16" fill="url(#fbg)"/>
-  <!-- Tombol jendela terminal -->
   <circle cx="28" cy="22" r="5" fill="#DC2626"/>
   <circle cx="47" cy="22" r="5" fill="#F59E0B"/>
   <circle cx="66" cy="22" r="5" fill="#16A34A"/>
-  <!-- Judul terminal -->
   <text x="600" y="26" text-anchor="middle" fill="#64748B" font-family="'Segoe UI',system-ui,sans-serif" font-size="11">zyntrix — engineering terminal</text>
-  <!-- Separator -->
   <path d="M0 40H1200" stroke="#1E3A5F" stroke-width="1"/>
-  <!-- Baris perintah terminal -->
   <g font-family="'Cascadia Code','Fira Code',monospace" font-size="15">
     <text x="30" y="72" fill="#DC2626">$</text>
     <text x="48" y="72" fill="#FFFFFF">zyntrix status --all</text>
@@ -25,10 +21,8 @@
     <text x="30" y="130" fill="#16A34A">●</text>
     <text x="48" y="130" fill="#FFFFFF">SYSTEMS ENGINEERING ONLINE</text>
   </g>
-  <!-- Kursor berkedip -->
   <rect x="352" y="116" width="9" height="16" fill="#DC2626">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
-  <!-- Border -->
   <rect width="1200" height="150" rx="16" fill="none" stroke="#1E3A5F" stroke-width=".5"/>
 </svg>
