@@ -30,6 +30,7 @@
 
 <p align="center">
   <a href="#-corporate-overview">Corporate Overview</a> •
+  <a href="#-founder--technical-leadership">Founder</a> •
   <a href="#-engineering-capabilities">Capabilities</a> •
   <a href="#-technology-platform">Technology</a> •
   <a href="#-architecture-principles">Architecture</a> •
@@ -80,6 +81,44 @@ We approach software as **operational infrastructure** — not merely applicatio
 - Least privilege
 - Auditability
 - CI/CD quality gates
+
+</td>
+</tr>
+</table>
+
+---
+
+## 👨‍💻 Founder & Technical Leadership
+
+<table>
+<tr>
+<td width="36%" align="center" valign="middle">
+  <img src="./assets/founder.png" width="100%" alt="Zaki Muhamad Fadilah (Zack Pratama)" />
+  <br />
+  <sub><strong>Zaki Muhamad Fadilah</strong><br />Founder & Technical Lead</sub>
+</td>
+<td width="64%" valign="top">
+
+### 👑 Zaki Muhamad Fadilah `(Zack Pratama)`
+**Founder & Chief Systems Architect** — PT Zyntrix Artificial Intelligence
+
+- 🎓 **Background:** Informatics Engineering
+- ⏳ **Experience:** 3+ Years in Software Engineering, AI Workflows & Web Systems Architecture
+- 🎯 **Core Focus:** Building high-performance digital platforms, clean microservices & secure APIs
+
+#### 🧰 Technical Stack & Key Technologies
+<p>
+  <img src="https://img.shields.io/badge/Next.js-0A2647?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Python-144272?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Node.js-205295?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/REST_API-DC2626?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST API" />
+  <img src="https://img.shields.io/badge/TypeScript-0A2647?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-144272?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/PostgreSQL-205295?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Docker-0A2647?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</p>
+
+> *"Focus, build, deploy, repeat. Build clean, maintainable systems that scale seamlessly without technical debt."*
 
 </td>
 </tr>
